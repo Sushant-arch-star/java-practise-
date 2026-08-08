@@ -483,7 +483,7 @@
 
 
 
-/                                     // // next answer is /////////////////////////////////////////////////////////
+// // next answer is /////////////////////////////////////////////////////////
 // import java.util.*;
 // public class loops {
 //   public static void main (String args[]) {
