@@ -166,3 +166,104 @@ binary will perform better ia any case if there is a log then its is bstter comp
 //     System.out.println("index of the key - - - >>" + bs(yash,key));
 //     }
 // }
+
+// reverse an array 
+
+// import java.util.*;
+// public class arrays {
+//     public static void ra(int num[]){
+//         int start = 0, end = num.length-1;
+//         while(start < end) {
+//             // swap
+//            int temp = num[end];
+//            num[end] = num[start];
+//            num[start] = temp;
+// start++;
+// end--;        
+
+//         }
+
+//     }
+//     public static void main(String args[]) {
+//         int num[]= {2,4,6,7,9,78,89};
+//         ra(num);
+
+//         // print 
+//         for (int i =0; i<num.length;i++) {
+//             System.out.print(num[i] + " ");
+//         }
+//         System.out.println();
+//     }
+// }
+
+
+ ////   pairs in array /////////
+ /// 
+ 
+// // // import java.util.*;
+// // // public class ARRAYS {
+// //    public static void pairs(int numbers[]) {
+// //     int tp=0;
+
+// //     for (int i = 0;  i<numbers.length; i++ ){
+// //          int curr = numbers[i]; // 2,4,6,8,10,11
+
+// //     for(int j=i+1; j<numbers.length; j++ ) {
+// //         System.out.print("("  + curr + "," + numbers[j] + ")") ;
+// //         tp++;
+// //     }
+// //         System.out.println();
+// //     }
+// //          System.out.println("total pairs =" + tp);
+
+   
+
+// //    }
+// //      public static void main(String args[]) {
+// //         int numbers[] = { 2,4,6,8,10,11};
+// //         pairs(numbers);
+
+
+// //      }
+// // }
+
+
+// //////////////  subarrays //////////////////////
+//                 /////////
+
+
+
+// // import java.util.*; 
+// // public class ARRAYS {
+// //     public static void printsubarrays(int numbers[]) {
+// //         int  ta = 0;
+// //         for (int i=0; i<numbers.length; i++)  {
+// //             int start = i;
+
+// //             for ( int j=i; j<numbers.length; j++) {
+// //                 int end = j; 
+// //                  for (int k = start; k<=end; k++) {
+// //                     System.out.print(numbers[k] + " ");
+// //                  }
+// //                  ta++;
+// //                  System.out.println();
+
+// //             }
+// //                  System.out.println();
+
+
+// //         }
+
+// //                          System.out.println(" total  subarrays = " + ta);
+
+
+// //     }
+
+    
+//     public static void main(String args[]) {
+//         int numbers[]= { 2,4,6,8,10};
+//        printsubarrays(numbers);
+
+
+//     }
+        // }
