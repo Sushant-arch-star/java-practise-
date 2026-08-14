@@ -13,7 +13,10 @@
     //     }
 
 //     //  } 
-//     // PRINT THE LARGEST 2 N0.
+//     // PRINT THE LARGEST 2 N0.///
+ 
+      
+ 
    
 //   import java.util.*;
 //   public class conditional {
@@ -49,10 +52,12 @@
 //     }
 //    }
 
+
+///odd or even  ///
+
+
 // import java.util.*;
 
-
-///odd or even
 // public class conditional {
 //     public static void main(String args[]) {
 //         // Scanner sc = new Scanner(System.in);
@@ -85,28 +90,59 @@
 // }
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // # ELSE-IF
+// income tax calculation ///
 
-// //         int income  = sc.nextInt();
-// //         int tax = 0;
-
-// //         if(income < 500000) {
-// //             tax = 0;
-
-
-// //         }
-// //         else if (income >= 500000 &&  income < 1000000) {
-// //             tax =(int) (income * 0.2);
-
-
-// //         }
-// //         else {
-// //              tax =(int) (income * 0.3);
-
-// //         }
-//         // System.out.println("your tax is : "+ tax);
+// import java.util.*;
+// public class conditional {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int income = sc.nextInt();
+//         int tax = 0;
+//         if(income < 5000) {
+//              tax = 0;
+            
+//         }
+//         else if (income >= 5000 && income < 10000) {
+//                  tax = (int)(income*5);
+//             }
+//             else {
+//                  tax = (int)(income*10);
+//             }
+//             System.out.println("your tax is:--->" + tax);
+//     }
+// }
 
 ////////////////////////////////////////////////////////////
-//     //     int A = 1,B = 3, C = 6;
+// import java.util.*;
+// public class conditional {
+//     public static void main(String args[]) {
+
+//         Scanner sc = new Scanner(System.in);
+//         float a  = sc.nextFloat();
+//         float b  = sc.nextFloat();
+//         float c = sc.nextFloat();
+//         if ((a>b) && (a>=c)) {
+//             System.out.println("gratest no is =" + a);
+//         }
+//         else if (b>=c) {
+//             System.out.println("no is "+ b);
+
+//         }
+//         else {
+//             System.out.println(c);
+
+//         }
+
+
+
+//     }
+// }
+/// or  // 
+/// 
+/// 
+/// 
+            
+//     //  valuse are     int A = 1,B = 3, C = 6;
 
 //     //     if ((A > B ) && (A >= C)) {
 //     //         System.out.println("largest is A");
@@ -121,21 +157,29 @@
 //     //         System.out.println("largest is C");
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //   # SWITCH
-//     //     }
-//     //   int number = 3;
-//     //  switch(number) {
-//     //     case 1: System.out.println("Butter chicken");
-//     //     break;
 
-//     //     case 2: System.out.println("mutton meat");
-//     //     break;
+// import java.util.*;
+// public class conditional {
+//     public static void main(String args[]) {
+//         int numbers = 5;
+//          switch(numbers) {
+//                  case 1: System.out.println("Butter chicken");
+//         break;
 
-//     //     case 3:
-//     //         System.out.println("biryani");
-//     //         break;
-//     //     default: System.out.println("sapna tha bhai!");
+//         case 2: System.out.println("mutton meat");
+//         break;
 
-                              // CALCUATOR ////////////////////////////////////////////////////////////////////////////////////////////
+//         case 3:
+//             System.out.println("biryani");
+//             break;
+//         default: System.out.println("sapna tha bhai!");
+
+
+//         }
+//     }
+// }
+   // CALCUATOR ////////////////////////////////////////////////////////////////////////////////////////////
+
 //      Scanner sc  = new Scanner(System.in);
 //      System.out.println("enter a : ");
 //      int a = sc.nextInt();
