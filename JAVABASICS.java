@@ -46,23 +46,24 @@
 // }
 // boilerplate code
 
-// public class JAVABASICS {
-    //  public static void main(String args[]) {
-        // System.out.println("****");
-        // System.out.println("***");
-        // System.out.println("**");
-        // System.out.println("*");
+//  public class JAVABASICS {
+//       public static void main(String args[]) {
+//         // System.out.println("****");
+//         // System.out.println("***");
+//         // System.out.println("**");
+//         // System.out.println("*");
 
-    //      int a = 10;
-    //    int b = 20;
-    //     System.out.println(a);
-    //    String name = "sush";
-    //    System.out.println(name);
-    //    a = b;
-    //    System.out.println(a);
+//     //     int a = 10;
+//     //    int b = 20;
+//     //     System.out.println(a);
+//         String name = "sush";
+//         System.out.println(name);
+//     //    a = b;
+//     //    System.out.println(a);
 
-
-/// data types 
+//  }
+//  }
+/// data types theory \\\\\\\\\\\\\\\\\\\\\\\\\\\
 
     //    byte b = 6;
     //    System.out.println(b);
@@ -83,7 +84,7 @@
 // }
 
  //////////// inputs in java ////////
- /// 
+ //    thoery // 
 //  ///
 //  import java.util.*;
 //  public class JAVABASICS {
@@ -110,6 +111,7 @@
 
 //     }
 // }
+ // product of two unknown numbwers ///////////////
 
 // import java.util.*;
 // public class JAVABASICS {
@@ -127,6 +129,9 @@
 // ///////////////////////////////
 // //////////////////////////////////////////
    // TYPE CONVERSION ///////////
+
+
+
 // // // import java.util.*;
 // // public class JAVABASICS {
 // //     public static void main(String args[]) {
@@ -137,10 +142,16 @@
 // //         // float number = sc.nextInt();
        // can be done float to int  asign done but vice versa cant be done 
 
+
+
+
        ///////////// type casting /////////////
 // //         // float a = 25.1f;
 // //         // int b =  (int) a;
-//  // # TYPE PROMOTION 
+
+
+
+//  // # TYPE PROMOTION //////////////////////////
 
 // //         // char a = 'a';
 // //         // char b =  'b';
