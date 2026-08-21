@@ -31,17 +31,17 @@
    // }
  //}
 ///////////////////////////////////////////////////////////////////////////
-// public class JAVABASICS {
-//     public static void main(String arg[]) {
-//         System.out.println("sushant tiwari");
-//         System.out.println("sushant tiwari");
+//  public class JAVABASICS {
+//   public static void main(String arg[]) {
+// //         System.out.println("sushant tiwari");
+// //         System.out.println("sushant tiwari");
 
-//         System.out.println("sushant tiwari");
+//         System.out.print("sushant \n tiwari");
 
 
 
         
-    // }
+//      }
 
 // }
 // boilerplate code
@@ -113,6 +113,7 @@
 // }
  // product of two unknown numbwers ///////////////
 
+
 // import java.util.*;
 // public class JAVABASICS {
 //     public static void main(String args[]) {
@@ -140,7 +141,7 @@
 // WE CAN store int a in ling b  but vice versa cant be possible becayse cant store big value in small size storage 
 // //         // Scanner sc = new Scanner(System.in);
 // //         // float number = sc.nextInt();
-       // can be done float to int  asign done but vice versa cant be done 
+       // can be done int to float  asign done but vice versa cant be done 
 
 
 

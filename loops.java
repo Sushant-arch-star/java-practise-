@@ -18,19 +18,20 @@
 
 // // // no from 1 to 10 using while loop
 
-// import java.util.*;
-// public class loops {
-//      public static void main(String args[]) {
-//         int c = 1;
-//         while(c<11) {
-//             System.out.print(  c+"fuck");
-//             c++;
-//         }
-//         System.out.println("fuck u ");
-//       }
+//  import java.util.*;
+//  public class loops {
+//   public static void main(String args[]) {
+//     float n = 1;
 
-
+//     while(n<=10) {
+//       System.out.println(n + " sushant");
+//       n++;
 //     }
+//     System.out.println("10 times  ");
+
+//   }
+//  }
+
 
 // //         }
 // //     //  note yaad rakhna agar upar wala na 100 hi printhua kyu ki humna counter bahar print nahi karya is liya 101 times print nahi hua 
@@ -56,6 +57,8 @@
 //  }
 
 // print no from 1 to n (while loop )
+
+
 //  import java.util.*;
 //  public class loops {
 //       public static void main(String args[]) {
@@ -75,44 +78,30 @@
 //     } 
 
  
+ 
+// // //print sum of first n natural numner (while loop) //////
 // import java.util.*;
+
 // public class loops {
 //   public static void main(String args[]) {
 //     Scanner sc = new Scanner(System.in);
-//     int num = sc.nextInt();
-//     int c = 1;
-//     while(c<=num) {
-//       System.out.print(num + " ");
-//       c++;
+//     int n = sc.nextInt();
+//     int sum = 0;
+//     int i =1;
+
+
+//     while(i<=n) {
+//       sum += i;
+//       i++;
 //     }
-//     System.out.println();
+//     System.out.print(" sum is =" + sum);
 //   }
 // }
 
- 
-// // //print sum of first n natural numner (while loop)
-// //  import java.util.*;
-// //  public class loops {
-// //      public static void main(String args[]) {
-// //                Scanner sc = new Scanner(System.in);
-// //                int n =sc.nextInt();
-//                int sum =0;
 
 
-//                int i=1;
-//                while(i<=n) {
-//                  sum+= i;   
-//                i++;
-
-//                }
-              
-
-     
-//            System.out.println("sum is " + sum
-        
-//            );
+      
 ///////////////////////////////// for loops ////////////////////////////////////////////////////////////////////////////////////        
-// //      }
 
 // import java.util.*;
 // public class loops {
@@ -120,36 +109,11 @@
 //         for(int i=1; i<=4; i++) {
 //             System.out.println(i + "puri duniya ki maa ki chut");
 
-//       
-
 //         }
 
-        
 //         }
 //      }
- 
 
-// //   //print reverse of a number////////////////// 
-//   // n =10899
-
-  // import java.util.*;
-
-
-  // public class loops {
-  //   public static void main(String args[]) {
-  //       int n =10899;
-  //       while(n>0) {
-  //           int lastDigit = n % 10;
-  //           System.out.print(lastDigit);
-  //           n = n / 10;
-
-
-  //       }
-  //       System.out.println();
-
-        
-  //   }
-  // }
 
 // //   //print reverse of a number////////////////// 
 //   // n =10899
@@ -201,96 +165,21 @@
 //   public static void main(String args[]) {
 //     Scanner sc = new Scanner(System.in);
 //     int num = sc.nextInt();
-//     int rev = 0;
-//     while (num > 0) {
-//       int lastdigit = num%10;
-//        rev = (rev*10)+ lastdigit;
-//        num = num/10;
+//     int rev =0;
+//     while(num > 0) {
+//       int lastdigits = num%10;
+//       rev =(rev*10)+lastdigits;
+//       num = num/10;
 //     }
 //     System.out.println(rev);
-//   }
-// }
-///////////////////////////////////////////// do while loops //////////////////////////
-///////////////////////////////// for loops ////////////////////////////////////////////////////////////////////////////////////        
-// //      }
-
-// import java.util.*;
-// public class loops {
-//     public static void main(String args[])  {
-//         for(int i=1; i<=4; i++) {
-//             System.out.println(i + "puri duniya ki maa ki chut");
-
-//       
-
-//         }
-
-        
-//         }
-//      }
- 
-
-// //   //print reverse of a number////////////////// 
-//   // n =10899
-
-  // import java.util.*;
-
-
-  // public class loops {
-  //   public static void main(String args[]) {
-  //       int n =10899;
-  //       while(n>0) {
-  //           int lastDigit = n % 10;
-  //           System.out.print(lastDigit);
-  //           n = n / 10;
-
-
-  //       }
-  //       System.out.println();
-
-        
-  //   }
-  // }
-
-///////////////////////////////////////////////////////////////// revese the given number //////////////////////////////////////////
-
-
-// import java.util.*;
-// public class loops {
-//     public static void main(String args[]) {
-//         int n = 10899;
-//         int rev = 0;
-         
-//         while (n > 0) {
-//             int lastDigit = n%10;
-//             rev = (rev*10) + lastDigit;
-//             n = n/10;
-
-
-//         }
-//         System.out.println(rev);
-
-      
 //     }
-
-// }
-
-//  import java.util.*;
-//  public class loops {
-//   public static void main(String args[]) {
-//     Scanner sc = new Scanner(System.in);
-//     int num = sc.nextInt();
-//     int rev = 0;
-//     while (num > 0) {
-//       int lastdigit = num%10;
-//        rev = (rev*10)+ lastdigit;
-//        num = num/10;
-//     }
-//     System.out.println(rev);
 //   }
-//  }
+
+
+
 
 ////////////////////////////  do whie ////////////////////////////////////
-
+/// 
 // import java.util.*;
 //  public class loops {
 //     public static void main(String args []) {
@@ -316,13 +205,13 @@
 //                 break;
 
 //              }
-//              System.out.print(i);
+//              System.out.println(i);
            
-//         }
-//         System.out.println("i am bad for everyone");
+//         }        
+
  
-//     }
-  
+//     }  
+//   }
 //////////////////////////////////////////// keep entering the number until user enters a multiple of 10///////////////////////////////////////////////////
 
 // import java.util.*;
@@ -359,13 +248,15 @@
 //   }
 // }
 ////////////////////////////// or same qieston whith do whie method /////////////////////////////////
-// /// 
+// ///
+
 // import java.util.*;
 // public class loops { 
 //   public static void main(String args[]) {
-//     int  i = 1;
+//               int  i = 1;
+
 //     do {
-      
+
 //       if (i == 3) {
 //                 i++;
 
@@ -380,6 +271,21 @@
 // }
 // /////////////////////////////////////////////// dusplay all no expext multiple of 10;/////////////////////////////////////////
 
+// import java.util.*;
+// public class loops {
+// public static void main(String args[]) {
+//   Scanner sc = new Scanner(System.in);
+//   float f =sc. nextFloat();
+//   for(int i=1;i<=f;i++) {
+//     if(i%10==0){
+//       continue;
+//     }
+//     System.out.print(i);
+// }
+
+//   } 
+
+// }
 
 
 // import java.util.*;
@@ -427,24 +333,7 @@
 //      }  
 //   }
 // }
-   ////////////////////////////////// this code for from till the digit prime or not ////////////////////
    
-// import java.util.*;
-// public class loops {
-//   public static void main(String args[]) {
-//     Scanner sc  = new Scanner(System.in);
-//     int num = sc.nextInt();
-//     for ( int i =1; i<=num; i++) {
-//       if(num % i==0) {
-//         System.out.println("prime = " + i);
-//       }
-//       else {
-//         System.out.println(  "not prime = " + i);
-//       }
-//     }
-    
-//   }
-// }
 // ////////////////////////////////////////////// no is prime or not  //////////////////////////////////////////////////////
 // import java.util.*; 
 // public class loops {
@@ -475,7 +364,10 @@
 //       }
 //   }
 // }
-///////////////////////////////////////////////////// assignmennt //////////////////////////////////
+
+
+
+///////////////////////////////////////////////////// assignmennt ///////////////////////////////////////////
 
 // Q1 ans is 2 times 
 
@@ -483,7 +375,7 @@
 
 
 
-// // next answer is /////////////////////////////////////////////////////////
+// next answer is /////////////////////////////////////////////////////////
 // import java.util.*;
 // public class loops {
 //   public static void main (String args[]) {
@@ -506,7 +398,7 @@
 //       System.out.print(" do you want to continue ? press 1 for yes or 0 for no ");
 //       choice = sc.nextInt();
 
-//       } while (choice ==1);
+//       } while (choice==1);
 //       System.out.println("sum of even number is" + evenSum);
 //       System.out.println("sum of odd number is" + oddSum);
 
@@ -520,10 +412,9 @@
 // public class loops {
 //   public static void main(String args[]) {
 //     Scanner sc = new Scanner(System.in);
-//     int num;
 //     int fact = 1;
 //     System.out.print("ENTER YOUR NUMBER ;=");
-//     num = sc.nextInt();
+//      int num = sc.nextInt();
 //     for (int i = 1; i <= num; i++) {
 //       fact = fact * i;
 
@@ -532,6 +423,7 @@
 
 // }
 // }
+
 
 // import java.util.*;
 // class MultiplicationTable {
@@ -553,4 +445,20 @@
 // }
 
 
-//////////////////////////////////////// thankyou////////////////////////
+////////
+// //////////////////////////////// thankyou////////////////////////
+import java.util.*;
+public class loops {
+  public static void main(String args[]) {
+    Scanner sc = new Scanner(System.in);
+
+    int s = sc.nextInt();
+            int fact = 1;
+System.out.println("enter your number");
+    for(int i = 1; i<=s;i++){
+      fact = fact*i;
+
+    }
+    System.out.println(fact);
+  }
+}
