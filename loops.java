@@ -365,7 +365,33 @@
       
 //     }
 //    }
+////////////////////////////////////// or //////////////////////////////
 
+// import java.util.*;
+// public class loops {
+//   public static void main(String args[]) {
+//     Scanner sc = new Scanner(System.in);
+//     int num;
+//     int evensum =0;
+//     int oddsum = 0;
+
+//     for(int i =1 ; i<=4; i++) {
+//       System.out.println("enter your number");
+//        num = sc.nextInt();
+//     if (num%2==0){
+//       evensum += num;
+      
+
+//     }
+//     else {
+//         oddsum += num;
+//       }
+//     }
+//     System.out.println("sum of even no is "+ evensum);
+//     System.out.println("sum of odd sum is "+ oddsum);
+ 
+//   }
+// }
 
 // import java.util.*;
 // public class loops {
@@ -416,3 +442,4 @@
 
 ////////
 // //////////////////////////////// thankyou////////////////////////
+
