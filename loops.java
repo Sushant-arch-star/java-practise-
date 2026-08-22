@@ -1,7 +1,7 @@
  ///////////////////////  loops  lecture 5 ///////////////////////
  // while loops 
 
-// import java.util.*;
+// // import java.util.*;
 // public class loops {
 //     public static void main(String args[])  {
 //         int counter = 0;
@@ -16,7 +16,7 @@
 //     }
 // }
 
-// // // no from 1 to 10 using while loop
+// // no from 1 to 10 using while loop
 
 //  import java.util.*;
 //  public class loops {
@@ -34,27 +34,10 @@
 
 
 // //         }
+
 // //     //  note yaad rakhna agar upar wala na 100 hi printhua kyu ki humna counter bahar print nahi karya is liya 101 times print nahi hua 
 //     //  wahi nicha wala main hame 1 sa 10 tak janna hai to syso(counter); karenga to 11 print hoga kyu ki lopp ka nbahar bhi code run ho ra hai okk
 
-// // //no from 1 to 10 using while loop
-
-//  import java.util.*;
-//  public class loops {
-//      public static void main(String args[]) {
-//         int c = 1;
-//         while(c<=10) {
-//             System.out.print(c + "fuked ");
-//             c++;
-
-//         }            System.out.println();
-
-        
-
-
-// }
-
-//  }
 
 // print no from 1 to n (while loop )
 
@@ -140,26 +123,6 @@
 ///////////////////////////////////////////////////////////////// revese the given number //////////////////////////////////////////
 
 
-// import java.util.*;
-// public class loops {
-//     public static void main(String args[]) {
-//         int n = 10899;
-//         int rev = 0;
-         
-//         while (n > 0) {
-//             int lastDigit = n%10;
-//             rev = (rev*10) + lastDigit;
-//             n = n/10;
-
-
-//         }
-//         System.out.println(rev);
-
-      
-//     }
-
-// }
-
 //  import java.util.*;
 //  public class loops {
 //   public static void main(String args[]) {
@@ -233,11 +196,8 @@
 // }
 
 //}
-
-
-/////////////////////////// CONTINUE STATEMENT ////////////////////////////
-
-// import java.util.*;
+/// continue ///
+ // import java.util.*;
 // public class loops {
 //   public static void main(String args []) {
 //     for (int i=1; i<=5; i++) {
@@ -253,12 +213,10 @@
 // import java.util.*;
 // public class loops { 
 //   public static void main(String args[]) {
-//               int  i = 1;
-
+//   int  i = 1;
 //     do {
-
-//       if (i == 3) {
-//                 i++;
+//       if (i==3) {
+//         i++;
 
 //         continue;
 
@@ -408,6 +366,7 @@
 //     }
 //    }
 
+
 // import java.util.*;
 // public class loops {
 //   public static void main(String args[]) {
@@ -437,28 +396,23 @@
 //   }
 
 // }
-// public static void main (String s[]) {
+// public static void main (String args[]) {
 //   printMultiplicationTable(5);
 // }
 
 
 // }
-
+ /////////////////////////// or /////////////////////////
+// import java.util.*;
+// public class loops {
+//   public static void main(String [] args){
+//     Scanner sc = new Scanner(System.in);
+//     int s = sc.nextInt();
+//     for(int i =1; i<=10; i++){
+//       System.out.println(s + "*" + i + "=" + s*i);
+//     }
+//   }
+// }
 
 ////////
 // //////////////////////////////// thankyou////////////////////////
-import java.util.*;
-public class loops {
-  public static void main(String args[]) {
-    Scanner sc = new Scanner(System.in);
-
-    int s = sc.nextInt();
-            int fact = 1;
-System.out.println("enter your number");
-    for(int i = 1; i<=s;i++){
-      fact = fact*i;
-
-    }
-    System.out.println(fact);
-  }
-}
