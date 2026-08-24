@@ -4,7 +4,7 @@
 // ///////////////function and meethod //////////////////////////////
 
 // import java.util.*;
-// public class loops {
+// public class function{
 //   public static void printHelloWorld() {
 //     System.out.println("hello world");
 //         System.out.println("hello world");
@@ -14,29 +14,10 @@
 
 //   }
 
-// //   public static void calculateSum(int num1, int num2) {
-  
-// //     int sum = num1 + num2;
-// //     System.out.println("sum is " + sum);
-
-
-
-// //   }
-// //   public static void main(String args[]) {
-// //       Scanner sc = new Scanner(System.in);
-// //     int a = sc.nextInt();
-// //     int b = sc.nextInt();
-// //    calculateSum(a,b);
-//   }
-// }
-
-
-
-//  public static intcalculateSum(int num1, int num2) { // parameters or formal parameters 
+//   public static void calculateSum(int num1, int num2) {
   
 //     int sum = num1 + num2;
 //     System.out.println("sum is " + sum);
-//     return sum;
 
 
 
@@ -45,11 +26,27 @@
 //       Scanner sc = new Scanner(System.in);
 //     int a = sc.nextInt();
 //     int b = sc.nextInt();
-//     int sum = calculateSUm(a,b); // arguments or actual parameters 
-
-//    System.out.println("sum is " + sum);
+//    calculateSum(a,b);
 //   }
-// // }
+// }
+ ////////////////////////// or ///////////////////////
+// import java.util.*;
+// public class function{
+//   public static int levis(int a , int b){
+//     int sum = a + b;
+//     System.out.println(sum);
+//      return sum;
+//   }
+//   public static void main(String args[]){
+//     int a = 5;
+//     int b= 16;
+//     levis(5,16);
+//   }
+// }
+
+//////////////////////// swap the 2 numbers 
+/// 
+/// 
 // public static void swap(int a , int b) {
 //    /// // swap code 
 //   int temp = a;
@@ -89,7 +86,7 @@
 
 
 //question 2 //////////////////////////////////////////////. factorial of a number, n while  n= 4////////////////////////////////////////////////////////
-// // n! = n * (n-1) * (n*2)............ *1 
+// n! = n * (n-1) * (n*2)............ *1 
 
 // public static int factorial(int  n) {
 //   int f =1;
@@ -103,11 +100,11 @@
 
 
 // }
-// public static void main(String args[]){ 
-//   System.out.println(factorial(14));
+// public static void main(String args[]){
+// System.out.print(factorial(14));
+// }
 
-
-// // }   /// BINOMial coefficent 
+// // }   /// BINOMial coefficent ////////////////////////////
 // public static int factorial(int  n) {  
 //    int f =1;
 
@@ -127,12 +124,12 @@
 //       return bincoeff;
 
 
-
 // }
 // public static void main(String args[]){
 //   System.out.println(bincoeff(5,2));
-// }
-////////////////////////////// function overloding    /////////////////////////////////////////
+//}
+
+////////////////// function overloding    /////////////////////////////////////////
 
 // // func t0 calcuLATE SUM OF TWO NO 
 
@@ -200,7 +197,7 @@
 // public static void main (String args[]) {
 //   System.out.println(isPrime(12));
 // // }
-/////////////////////////////////////////////////////////////////////////////////
+ ///////////////////////////////////////////////////////////////////
 // public static boolean isPrime(int n ) {
 //   if (n == 2) {
 //     return true;
@@ -233,7 +230,6 @@
 //   } 
 //   return true;
 // } 
-/////////////print all prime in a range ////////////////
 // public static void primesInRange(int n ) {
 // for (int i = 2; i<=n; i++) {
 //   if(isPrime(i)) { // true 
@@ -247,10 +243,37 @@
 
 // public static void main(String args[]) { 
 //   primesInRange(729);
-//  }
+//  } 
 
- 
+ ///////////////////////////////// or ////////////////////////
+// import java.util.*;
+// public class function {
 
+//   public static boolean isprime(int n){
+//     if(n == 2){
+//       return true;
+//     }
+//     for(int i =2; i<=Math.sqrt(n);i++){
+//       if(n%i==0){  
+//             return false;
+
+//       }
+//     }
+//      return true;
+//   }
+
+//   public static void primerange(int n){
+//     for(int i =2;i<=Math.sqrt(n);i++){
+//       if(isprime(i)){
+//         System.out.print(i+" ");
+
+//       }
+//     } System.out.println();
+//   }
+//   public static void main(String args[]){
+//    primerange(729); 
+// }
+// }
 ///////////////////////////////////////////////////////////////////////// BINARY TO DESI MAAL //////////////////////////////////////////////////////////////////////////////////
 
 // public static void binToDec(int binNum) {
@@ -268,6 +291,11 @@
 //   }
 //   System.out.println("decimal of " + myNum+ "= " + decNum);
 //   }
+
+  // public static void main(String args[]) {
+  //   binToDec(1);
+  // }
+  
 // ///////////////////////////////////////////////////////////////////////// d to b /////////////////////////////////////////////////////////////////////////////////////////////////
   //  public static void decToBin(int n) {
   //   int myNum = n;
@@ -286,9 +314,10 @@
 
 
   // public static void main(String args[]) {
-  //   binToDec(1);
-  // //decToBin(89);
+  // decToBin(89);
   // }
+  
+
   
   ///////////////////////// functions and methods v/////////////////////////////////////////////
   
@@ -303,7 +332,7 @@
 //      System.out.println(avg(12,22,22));
 
  
-//   //System.out.println(result);
+//   //system.out.println(result);
 // }
 
  ///////////////
@@ -345,15 +374,29 @@
 //   }
 // }
 
-
-
+ //////////////////// or /////////////////////
+// import java.util.*;
+// public class function {
+//   public static int rev(int n){
+//     int revn =0;
+//     while(n>0){
+//       int digit = n%10;
+//       revn=(revn*10)+digit;
+//       n = n/10;
+//     }
+//     return revn;
+//   }
+//   public static void main(String args[]){
+//     System.out.println(rev(132345));
+//    }
+// }
 
 ///////////////////////////////// @#5//////////////////////////////
  
     
 
 
-
+ // means that 729 so 7+2+9 = 18 like this 
 
 
   //  public static int sum(int n) {
@@ -370,3 +413,5 @@
   //  public static void main(String args[]) {
   //   int ans = sum(12345);
   //   System.out.println(ans);
+
+
