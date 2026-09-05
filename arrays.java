@@ -23,7 +23,30 @@ System.out.println("lenth of arrays is =" + marks.length);
 
     }
 }
+
+ 
+
 */
+
+///////////////////////////// OR ////////////////////////////////   
+// import java.util.*;
+// public class arrays {
+//     public static void ms(int marks[]){
+// Scanner sc = new Scanner(System.in);
+//  marks[0] = sc.nextInt();
+//  marks[1] = sc.nextInt();
+//  marks[2] = sc.nextInt();
+//  System.out.println("marks of math is = " + marks[0]);
+//  System.out.println("marks of math is = " + marks[1]);
+//  System.out.println("marks of math is = " + marks[2]);
+  
+
+//     }
+//     public static void main(String args[]){
+//         int marks [] = new int [100];
+//         ms(marks);
+//     }
+// }
 
 /*  some important points 
 if total 50 size of array then its indexing from 0 to 49 called 0-based indexing 
@@ -61,7 +84,7 @@ list of same elements type like int, char, float which is continous like 1,2,3 c
 //      System.out.println();
 //     }
 // }
-
+  
 // LINEAR SEARCH /////
 
 // THERE ARE ARRAYS IN WHICH HAVE VALUES AND FINDING THE REQUIRED KEY VALUE FROM GOING TO ALL THE KEYS IN A ARRAYS ./**
@@ -83,6 +106,32 @@ list of same elements type like int, char, float which is continous like 1,2,3 c
 //        System.out.println(ls(k,key));
 //     }
 //  }
+ 
+ /////////////////////// 0r /////////////
+// import java.util.*;
+// public class arrays {
+//     public static void la(int value[], int key){
+//                     int i;
+
+//         for( i = 0 ; i<value.length ; i++){
+//             if(value[i] == key) {
+//                                 System.out.print("key mil gyii " + key);
+//                                     break;
+            
+//             }
+            
+//         }
+//            if ( i == value.length){
+//                 System.out.println("chala ja bsdk");
+//             }
+//             }
+      
+//     public static void main(String args []){
+//         int value[] = {2,4,6,8,10,12};
+//         int key = 11;
+//          la(value,key);
+//     }
+// }
 
 // // .///////////////////////////// find the largest no in a given arays 
 // import java.util.*;
@@ -101,6 +150,7 @@ list of same elements type like int, char, float which is continous like 1,2,3 c
 //         System.out.println("largest value is " + getL(sush));
 //     }
 // }
+
 ////////////// find the lowest number ////////////
 
 // import java.util.*;
@@ -119,7 +169,7 @@ list of same elements type like int, char, float which is continous like 1,2,3 c
 //         System.out.println("smallest value is " + getS(susht));
 //     }
 // }
-////////////////////////////// BINARY SEARCH /////////////////
+////////////////////////////// BINARY SEARCH /////////////////////////////////////////////////////////////////////////// 
 /*  
 binary search is like finding a word from dictionary book./**
  its like sorted array [1,2,3,4,5,6,7....] [9,7,5,3,1].
@@ -166,8 +216,33 @@ binary will perform better ia any case if there is a log then its is bstter comp
 //     System.out.println("index of the key - - - >>" + bs(yash,key));
 //     }
 // }
+/////////////////////////////////// or /////////////////////////////////////////////
+// import java.util.*;
+// public class arrays {
+//     public static int bs(int num [], int key){
+//        int start = 0;  int end = num.length-1;
+//        while(start <= end){
+//         int mid = (start + end )/2;
+//          if(num[mid] == key){
+//             return mid;
+//          }
+//          if(num[mid]> key){
+//             end = mid-1;
+//          }
+//          else {
+//             start = mid+1;
+//          }
+//        }
+//        return -2;
+//     }
+//     public static void main(String args[]){
+//         int num[] = {2,4,6,8,10,12,14};
+//         int key = 10;
+//         System.out.println(bs(num,key));
+//     }
+// }
 
-// reverse an array 
+// reverse an array /////////////////////////////////////////////////////////////////////
 
 // import java.util.*;
 // public class arrays {
@@ -196,39 +271,64 @@ binary will perform better ia any case if there is a log then its is bstter comp
 //     }
 // }
 
+ ///////////////////// or                    //////////////////////////////////////////////////
+//  import java.util.*;
+//  public class arrays {
+//     public static void ra(int num[]){
+//         int begin = 0; int finish = num.length-1;
+//          while(begin < finish) {
+//                     int temp = num[finish];
+//         num[finish] = num[begin];
+//         num[begin] = temp;
+//            begin++;
+//            finish--;
+//          }
+//     }
+//     public static void main(String args[]){
+//         int num [] = {2,3,4,5,6,7,8};
+//         ra(num);
 
- ////   pairs in array /////////
+//         // print // 
+
+//         for(int i = 0; i<num.length-1; i++){
+//             System.out.print(num[i] + " ");
+//         }
+//         System.out.println();
+//     }
+//  }
+ ////   pairs in array //////////////////////////////////////////////////////////////////////////////////////////////////////////
  /// 
  
-// // // import java.util.*;
-// // // public class ARRAYS {
-// //    public static void pairs(int numbers[]) {
-// //     int tp=0;
+// import java.util.*;
+// public class ARRAYS {
+//    public static void pairs(int numbers[]) {
+//     int tp=0;
 
-// //     for (int i = 0;  i<numbers.length; i++ ){
-// //          int curr = numbers[i]; // 2,4,6,8,10,11
+//     for (int i = 0;  i<numbers.length; i++ ){
+//          int curr = numbers[i]; // 2,4,6,8,10,11
 
-// //     for(int j=i+1; j<numbers.length; j++ ) {
-// //         System.out.print("("  + curr + "," + numbers[j] + ")") ;
-// //         tp++;
-// //     }
-// //         System.out.println();
-// //     }
-// //          System.out.println("total pairs =" + tp);
+//     for(int j=i+1; j<numbers.length; j++ ) {
+//         System.out.print("("  + curr + "," + numbers[j] + ")") ;
+//         tp++;
+//     }
+//         System.out.println();
+//     }
+//          System.out.println("total pairs =" + tp);
 
    
 
-// //    }
-// //      public static void main(String args[]) {
-// //         int numbers[] = { 2,4,6,8,10,11};
-// //         pairs(numbers);
+//    }
+//      public static void main(String args[]) {
+//         int numbers[] = { 2,4,6,8,10,11};
+//         pairs(numbers);
 
 
-// //      }
-// // }
+//      }
+// }
 
 
-// //////////////  subarrays //////////////////////
+
+// //////////////  subarrays ////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                 /////////
 
 
@@ -263,4 +363,4 @@ binary will perform better ia any case if there is a log then its is bstter comp
 //     }
 // }
         // }
-        
+       
