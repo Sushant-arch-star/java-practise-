@@ -32,20 +32,77 @@
 
 //     }
 // }
-        
+      
+///////////////////////////////// or //////////////////////////////
+
+
+// import java.util.*;
+// public class array2 {
+//         public static void ss(int lund[]){
+//                 int currSum = 0;
+//                 int maxSum = Integer.MIN_VALUE;
+//                 for(int i = 0; i<lund.length;i++){
+//                         for (int j =i ; j<lund.length;j++){
+//                                  currSum = 0;
+//                         for (int k = i; k <= j; k++){
+//                                 currSum = lund[k];
+
+//                         }
+//                         System.out.println(currSum);
+//                         if(currSum > maxSum){
+//                                 maxSum = currSum;
+//                         }
+//                         }
+//                 }
+//                 System.out.println("max sum is = " + maxSum);
+//         }
+//         public static void main(String args []){
+//                 int lund[] = {1,-2,6,-1,3};
+//                 ss(lund);
+//         }
+// }
+
         // time complexity is not good so we can get maxsubarray problem by prefix array method 
 
-        // max subarray(prefix method) ///
+        // max subarray(prefix method) /// //// 
 
-//         import java.util.*; 
-// public class array2 {
+//         import java.util.*;
+//         public class array2 {
+//                 public static void ps(int num[]){
+//                 int currSum = 0;
+//                 int maxSum = Integer.MIN_VALUE;
+//                 int prefix[] = new int[num.length];
+//                 prefix[0] = num[0];
+//                  for (int i = 1; i<prefix.length; i++){
+//                         prefix[i] = prefix[i-1]+num[i];
+//                  }
+//                 for(int i = 0; i<num.length; i++){
+//                         for (int j = i ; j<num.length; j++){
+//                    currSum =  i == 0 ? prefix[j]: prefix[j]-prefix[i-1];
+//                    System.out.println(currSum);
+//                         if(currSum > maxSum){
+//                                 maxSum = currSum;
+//                         }
+
+//                         }
+
+//                         }
+//                 System.out.println("maxSum is = " + maxSum);
+//                 }
+                
+//                 public static void main(String args[]){
+//                         int num[] = {1,-2,6,-1,3};
+//                         ps(num);
+//                 }
+//         } ////////////////// or //////////////////////////
+// // public class array2 {
 //     public static void printmaxsubarrays(int numbers[]) {
 //         int currSum =0;
 //         int maxSum = Integer.MIN_VALUE;
 //         int prefix[] = new int[numbers.length];
 //         prefix[0] = numbers[0];
 //         for(int i =1; i<prefix.length;i++) {
-//             prefix[i] = prefix[i]+numbers[i];
+//             prefix[i] = prefix[i=1]+numbers[i];
 //         }
 
 //         for (int i=0; i<numbers.length; i++)  {
@@ -90,7 +147,7 @@
 //       }
 //       System.out.println("max subarray sum is =" + ms);
 //     }
-    
+      
     
 //     public static void main(String args[]) {
 //         int numbers[] = {-2,-3,4,-1,-2,1,5,-3};
@@ -188,7 +245,7 @@
 //         System.out.println(bandsstocks(prices));
 //  }
 //  }
- 
+  
 // assignment /// 
 // import java.util.*;
 // public class array2 {
@@ -207,6 +264,89 @@
 //                 System.out.print(sush(nums));
 //         }
 // }
+// // q 2 /// 
 
-////         #Q2        ///
+
+// import java.util.*;
+// public class array2 {
+//         public static int find(int num[], int key){
+//         int suru = 0; int khatam = num.length-1;
+//         while(suru<=khatam){
+//           int mid = (suru+khatam)/2;
+//           if(num[mid] == key){
+//                 return mid;
+//           }
+//           if(num[mid]>key){
+//                 khatam = khatam-1;
+
+//           }
+//           else {
+//                 suru = suru +1 ;
+//           }
+
+//         } return -1;
+//         }
+//          public static void main(String args[]){
+//                 int num[] = {2,3,4,5,0,1};
+//                 int key = 0;
+//                 System.out.print(find(num,key));
+//          }
+// }\
+
+// 3 // 
+
+// import java.util.*;
+// public class array2{
+//         public static int sus(int prices[]){
+//                 int buyprice = Integer.MAX_VALUE;
+//                 int maxprofit = 0;
+//                for(int  i = 0 ; i<prices.length; i++){
+//                 if(buyprice < prices[i]){
+//                         int profit = prices[i]- buyprice;
+//                         maxprofit = Math.max(profit,maxprofit);
+//                 }
+//                 else {
+//                         buyprice =   prices[i];
+//                 }
+//                }  return maxprofit; 
+//         }
+//         public static void main(String args[]){
+//                 int prices[] = {7,1,5,3,6,4};
+//                 System.out.print(sus(prices));
+//         }
+// }
+
+// 04 // 
+// import java.util.*;
+// public class array2 {
+//         public static int sush(int height[]){
+//                 // left max vale ;
+//                 int leftmax[] = new int[height.length];
+//                 leftmax[0] = height[0];
+//                 for(int i = 1 ; i<height.length; i++){
+//                        leftmax[i]= Math.max(leftmax[i-1],height[i]);
+//                 }
+//                  // right max value ;
+//                  int rightmax[] = new int[height.length];
+//                  rightmax[height.length-1] = height[height.length-1];
+//                  for(int i = height.length-2; i>=0;i--){
+//                         rightmax[i]= Math.max(height[i],rightmax[i+1]);
+//                  } 
+//                  int trappedwater = 0;
+
+//                  // loop / 
+//                  for(int i = 0; i<height.length; i++){
+//                  // water level // 
+//                  int waterlevel = Math.min(leftmax[i], rightmax[i]);
+//                  // trerpped water waterlevel;
+//                  trappedwater += waterlevel- height[i];
+//                  } 
+
+//                     return trappedwater;
+//         }
+//         public static void main (String args[]) {
+//                 int height[] = {0,1, 0,2,1, 0,1,3,2,1,2,1};
+//                 System.out.print(sush(height));
+//         }
+// }
 
