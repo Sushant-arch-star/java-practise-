@@ -1,34 +1,34 @@
  ////////////////////  BUBBLE SORT ///////////////////////////////
 
-import java.util.*;
-public class sorting{
-    public static void bubs(int arr[]){
-      for(int i = 0; i<arr.length-1;i++){ // i == turns 
-        for(int j = 0; j<=arr.length-2-i; j++){
-          if(arr[j] > arr[j+1]){
-            int temp = arr[j];
-            arr[j] = arr[j+1];
-            arr[j+1] = temp;
-          }
-        }
-      }
+// import java.util.*;
+// public class sorting{
+//     public static void bubs(int arr[]){
+//       for(int i = 0; i<arr.length-1;i++){ // i == turns 
+//         for(int j = 0; j<=arr.length-2-i; j++){
+//           if(arr[j] > arr[j+1]){ // descending <
+//             int temp = arr[j];
+//             arr[j] = arr[j+1];
+//             arr[j+1] = temp;
+//           }
+//         }
+//       }
 
-    }
-    public static void printArr(int arr[]){
-      for(int i = 0; i<arr.length;i++){
-        System.out.print(arr[i]+" ");
-      }
-      System.out.println();
-    }
-    public static void main(String args[]){
-        int arr[] = {5,4,1,39,2};
-        bubs(arr);
-        printArr(arr);
+//     }
+//     public static void printArr(int arr[]){
+//       for(int i = 0; i<arr.length;i++){
+//         System.out.print(arr[i]+" ");
+//       }
+//       System.out.println();
+//     }
+//     public static void main(String args[]){
+//         int arr[] = {5,4,1,39,2};
+//         bubs(arr);
+//         printArr(arr);
 
-    }
-}
+//     }
+// }
 
- // time complexity = O(n2)
+//  // time complexity = O(n2)
 
 //////////////////////// FOR SORTED BUBBLE SORT /////////////
 
@@ -78,7 +78,7 @@ public class sorting{
 //     int minpos = i;
 //     for (int j = i+1; j<sankhya.length-1; j++){
       
-//       if(sankhya[minpos] > sankhya[j]){
+//       if(sankhya[minpos] < sankhya[j]){ // for descending order > use 
 //         minpos = j;
 //       }
 //     }
@@ -161,5 +161,43 @@ public class sorting{
   //   }
   // }
   ////////////////////////////////// COUNTING SORT ////////////
-  /// 
   
+  // import java.util.*;
+  // public class sorting{
+  //   public static void count(int num[]){
+  //     int largest = Integer.MIN_VALUE;
+  //     for(int i = 0 ; i<num.length; i++){
+
+  //       largest = Math.max(largest,num[i]);
+
+  //     }
+  //     // frequency count 
+  //     int count[] = new int[largest+1];
+  //     for (int i  = 0 ; i<num.length; i++ ){
+  //       count[num[i]]++;
+  //     }
+  //     // sorting 
+  //     int j = 0;
+  //     for(int i = 0 ;i<count.length;i++){
+  //       while(count[i]<0){
+  //         num[j] = i;
+  //         j++;
+  //         count[i]--;
+
+  //       }
+  //      }
+
+  //    }
+  //     public static void printArr(int num[]){
+  //      for(int i = 0; i<num.length;i++){
+  //       System.out.print(num[i]+" ");
+  //     }
+  //     System.out.println();
+  //   }
+
+  //   public static void main(String args[]){
+  //     int num[] = {5,4,3,2,1};
+  //     count(num);
+  //     printArr(num);
+  //   }
+  // }
