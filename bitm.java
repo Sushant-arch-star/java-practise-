@@ -316,13 +316,13 @@
 
 // Q4 // 
 
-// convert uppercase caracter to lower casee character // 
-import java.util.*;
-public class bitm {
-    public static void main(String args[]){
-        for(char ch = 'A'; ch<='Z';ch++){
-            //System.out.println(ch);
-            System.out.print((char)(ch |' '));
-        }
-    }
-}
+// // convert uppercase caracter to lower casee character // 
+// import java.util.*;
+// public class bitm {
+//     public static void main(String args[]){
+//         for(char ch = 'A'; ch<='Z';ch++){
+//             //System.out.println(ch);
+//             System.out.print((char)(ch |' '));
+//         }
+//     }
+// }
